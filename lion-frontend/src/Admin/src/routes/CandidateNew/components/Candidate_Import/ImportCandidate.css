@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: Myriad Pro Italic;
+    src: url('../../../../../../User/src/fonts/Myriad Pro Italic.ttf');
+}
+
+.u-c-form {
+    padding-top: 103px;
+}
+
+.u-c-form>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.u-c-form>.i-error {
+    font-size: 20px;
+    color: red;
+    font-family: Myriad Pro Italic;
+}
+
+.u-c-form>ul>.input-file {
+    background-color: #e0e1e2;
+    margin-right: 3.5px;
+    padding: 11px 21px 11px 21px;
+    border-radius: .28571429rem;
+}
+
+.u-c-form>ul>.input-file>input {
+    cursor: pointer;
+    border: none;
+}
+
+.u-c-form>ul>.button-i-file>.button-i-file {
+    background-color: rgb(10,82,160);
+}
+
+.u-c-form>ul>.button-i-file>.button-i-file>svg {
+    color: #ffffff;
+}
+
+.u-c-form>div>.u-c-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-c-form>div>.u-c-preview>button {
+    margin-top: 30px;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;    
+    border: none;
+    cursor: pointer;
+    background-color: rgb(10,82,160);
+    color: white;    
+    font-family: Lato-Regular;
+    font-size: 15px;
+}

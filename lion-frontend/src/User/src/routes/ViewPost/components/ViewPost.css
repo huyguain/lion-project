@@ -1,0 +1,20 @@
+.view-post {
+    display: flex;
+    justify-content: center;
+}
+
+.view-post .vp-left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} 
+
+.view-post .vp-center {
+    width: 55%;
+} 
+
+.view-post .vp-right {
+    width: 20%;
+    background-color: #555555;
+} 

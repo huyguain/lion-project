@@ -1,0 +1,96 @@
+.wrap-quiz {
+    background: #fff;
+}
+
+.lecture-quiz {
+    width: 100%;
+    padding-bottom: 200px;
+    /* padding-left: 7.4%; */
+    padding-right: 7.4%;
+    padding-top: 53px;
+    font-weight: 18px;
+}
+
+.lecture-quiz .lecture-quiz-content {
+    background-color: #f1f1f1!important;
+    padding: 8px 16px!important;
+}
+
+.lecture-quiz .lecture-quiz-content .lecture-quiz-question {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* .lecture-quiz .lecture-quiz-content .lecture-quiz-next button {
+    padding: 10px 15px;
+    background-color: #ff9800!important;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+} */
+.quiz-button{
+    background-color: #ff9800!important;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.lecture-quiz .lecture-quiz-infor {
+    margin-top: 15px;
+}
+.lecture-quiz .lecture-quiz-infor .time-spent {
+    float: right;
+}
+.lecture-quiz .active {
+    display: block !important;
+}
+.container-quiz {
+    padding: 16px;
+    font-family: Lato-Regular;
+}
+.quiz-title {
+    font-weight: 400;
+    margin: 10px 0;
+}
+.main-leader-board {
+    height: 90px;
+}
+.main-bottom-board {
+    height: 120px;
+}
+.nav-quiz { 
+    padding-right: -20px;
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: Lato-Regular;
+}
+.quiz_ul {
+    background: #fafafa;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.quiz_li {
+    padding: 5px;
+    font-size: 15px;
+}
+.active_color {
+    background: green;
+    color: #fff
+}
+.quiz-light-grey {
+    color: #000 !important;
+    background: #f1f1f1 !important;
+    padding: 8px 16px!important;
+    font-size: 18px;
+    line-height: 1.5
+}

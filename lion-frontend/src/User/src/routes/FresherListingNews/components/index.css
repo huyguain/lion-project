@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src: url('../../../fonts/OpenSans-Bold.ttf');
+  }
+  @font-face{
+    font-family: 'OpenSans-Regular';
+    src: url('../../../fonts/OpenSans-Regular.ttf');
+  }
+  @font-face{
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../../../fonts/OpenSans-ExtraBold.ttf');
+  }
+  @font-face{
+    font-family: 'Roboto-Regular';
+    src: url('../../../fonts/Roboto-Regular.ttf');
+  }
+  @font-face{
+    font-family: 'Roboto-Black';
+    src: url('../../../fonts/Roboto-Black.ttf');
+  }
+.bodyPageListing {
+    background-color: #e7e9e7;
+    justify-content:center;
+}
+.bodyPageListing .contentPage{
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #ffffff;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyPageListing .SearchText{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+.bodyPageListing .contentTitle{
+    text-transform: uppercase;
+    font-family: Roboto-Black;
+    font-size: 28px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #f57002;
+}
+.bodyPageListing .contentShape{
+    width: 20%;
+    height: 1px;
+    background-color: #cdcdcd;
+    border: solid 1px #cdcdcd;
+}
+.bodyPageListing .buttonShowMore{
+    margin-top: 4%;
+    opacity: 0.8;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #0072bc;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0072bc;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    outline: none !important;
+}
+.bodyPageListing .buttonShowMore:hover{
+    color: #ffffff;
+    background-color: #0072bc;
+}
+.bodyPageListing .contentPost{
+    width: 100%;
+}
+.bodyPageListing .contextPost{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+.bodyPageListing .contextPostRight{
+    align-items: flex-end;
+}
+.bodyPageListing .contextPostLeft{
+    align-items: flex-start;
+}
+.bodyPageListing .datetimeText{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #888888;
+}
+.bodyPageListing .lateText{
+    font-family: Roboto-Black;
+    font-weight: bold;
+    color: #e66d24;
+    /*font-family: none;    */
+    text-transform: uppercase;
+}
+.bodyPageListing .titleText{
+    max-height: 62px;
+    width: 100%;
+    font-family: OpenSans-Bold;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #333333;
+    overflow: hidden;
+    margin-bottom: 15px;
+    cursor: pointer;    
+}
+.bodyPageListing .titleText:hover{
+    text-decoration: underline !important;
+}
+.bodyPageListing .contentPostText{
+    max-height: 85px;
+    font-family: Roboto-Black;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: #555555;
+    overflow: hidden;
+}
+.bodyPageListing .rowPost{
+    margin-top: 30px;
+}
+.bodyPageListing .contextPostRight{
+    align-items: flex-end;
+    text-align: right;    
+}
+.bodyPageListing .contextPostLeft{
+    align-items: flex-start;
+    text-align: left;
+}
+@media(max-width: 992px) {
+    .bodyPageListing .contextPostRight{
+        align-items: flex-start;
+        text-align: left;   
+    }
+}

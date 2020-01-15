@@ -1,0 +1,245 @@
+.bodyPage{
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #e6e8e6;
+    box-shadow: 0px 1px 0 0 rgba(177, 186, 198, 0.35);
+}
+.bodyFormPage{
+    background-color: #ffffff;
+    box-shadow: 0px 3px 8px 0 rgba(190, 194, 201, 0.35);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.bodyFormTitle{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5%;
+    color: #ff8a16;
+}
+.bodyFormBoidTitle{
+    color: #ff8a16;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: normal;
+}
+.ElementForm{
+    min-height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ElementFormInput{
+    display: flex;
+}
+.FieldObligatory{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.TitleElementFormInput{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin-right: 15px;    
+    width: 24%;
+    margin-bottom: 0px;
+}
+.SupportTitleElementForm{
+    color: #de0000;
+    margin-right: 3px;
+}
+.InputElementForm{
+    height: 34px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #a9b1bb;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    padding-left: 14px;
+    outline: none;
+}
+.rowElement{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.SelectElementForm{
+    font-family: Lato-Regular;
+    width: 70%;
+    size: 13px;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+.TextAreaElementForm{
+    width: 70%;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #a9b1bb;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    padding-left: 14px;
+    outline: none;
+}
+.sendButtonElement{
+    font-size: 16px;
+    height: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    background-color: #0072bc;
+    outline: none !important;
+    padding: 2px 45px 2px 45px;
+    margin: 0px 10px 0px 10px;
+}
+.cancelButtonElement{
+    font-size: 16px;
+    height: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0072bc;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: solid 1px #0072bc;
+    background-color: #ffffff;
+    outline: none !important;
+    padding: 2px 45px 2px 45px;
+    margin: 0px 10px 0px 10px;
+}
+.containList{
+    margin: 0px;
+    margin-bottom: 36px;
+}
+.FhListJob{
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    padding-top: 30px;
+    padding-left: 36px;
+}
+.FhListJobTitle{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #333333;
+    font-family: OpenSans-Bold;
+    padding-left: 14px;
+    border-left: solid 3.5px #f57002;
+    margin-bottom: 24px;
+}
+.FhListJobIntroduce{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3f3f3f;
+    margin-left: 6px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+}
+.itemListJobTitle{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:stretch;
+    width: 100%;
+    border-bottom: solid 1px #cdcdcd;
+}
+.itemListJob{
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+.itemTitle{
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.itemLocation{
+    cursor: pointer;
+    color: #f57002;    
+}
+.itemBeginDate{
+    font-size: 18px;
+    color: #888888;
+}
+.itemLeft{
+    width: 50%;
+    text-align: left;
+}
+.itemRight{
+    width: 50%;
+    text-align: right;
+}
+.itemListJobContent{
+    cursor: pointer;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:stretch;
+    width: 100%;
+    margin-top: 10px;
+}
+.itemContent{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: Lato-Regular ;
+}
+.itemContentBegin{
+    font-size: 16px;
+    color: #888888;
+    font-family: OpenSans-Regular;
+}
+.FieldNonObligatory{
+    width: 70%;
+}

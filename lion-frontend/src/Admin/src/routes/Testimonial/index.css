@@ -1,0 +1,10 @@
+.dropzoneItem{
+    width: 25%;
+    min-height: 155px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #26a69a;
+    background: #e3f0f0;
+    padding: 20px 20px;
+    color:darkgrey;
+}

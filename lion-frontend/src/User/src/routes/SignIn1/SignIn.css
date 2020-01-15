@@ -1,0 +1,246 @@
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('../../fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Myriad Pro Italic';
+    src: url('../../fonts/Myriad Pro Italic.ttf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sign-in {
+    background-image: url("./asset/background.png");
+    background-size: 100% 100%;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in .s-body {
+    width: 490px;
+    height: auto;
+    max-height: 700px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 10px 0 rgba(51, 51, 51, 0.1);
+}
+
+.sign-in .s-body .sb-top {
+    width: 100%;
+    height: 115px;
+    background-color: #333333;
+    box-shadow: 0px 8px 10px 0 rgba(51, 51, 51, 0.1);
+}
+
+.sign-in .s-body .sb-center {
+    width: 100%;
+    height: auto;
+}
+
+.sign-in .s-body .sb-center .sbc-up {
+    margin: 20px 40px 36px 40px;
+}
+.sign-in .s-body .sb-center .sbc-up .sbcu-title {
+    height: 32px;
+    font-family: Lato-Regular;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin: 0px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-rectangle {
+    width: 56px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #00aff0;
+    margin-top: 11px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error {
+    margin-top: 29px;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #ff6555;
+    transition: all 1s ease-out 1s;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div {
+    display: flex;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div .sbcue-text {
+   width: 76%;
+   height: 65px;
+   display: flex;
+   align-items: center;
+   margin-left: 16px;
+}   
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div .sbcue-text span{
+    color: white;
+    font-family: Lato-Regular;
+    font-size: 15px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div .sbcue-button {
+    display: flex;
+    align-items: center;
+}
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div .sbcue-button button {
+    width: 20px;
+    height: 20px;
+    background-color: #d65244;
+    border-radius: 50%;
+    border: none;
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-error div .sbcue-button button:hover {
+    cursor: pointer;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-username {
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin-top: 27px;
+    margin-bottom: 0px;
+}
+.sign-in .s-body .sb-center .sbc-up input {
+    margin-top: 10px;
+    width: 410px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #959595;
+    padding-left: 16px;
+}
+
+.sign-in .s-body .sb-center .sbc-up input:focus {
+    outline: none;
+}
+
+.sign-in .s-body .sb-center .sbc-up input::placeholder {
+    font-family: Lato-Regular;
+}
+
+.sign-in>.s-body>.sb-center>.sbc-up>.sbcu-select {
+    width: 110px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .err-user, .sign-in .s-body .sb-center .sbc-up .err-pass{
+    font-family: Myriad Pro Italic;
+    font-size: 14px;
+    color: #eb212e;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 16px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-password {
+    margin-top: 18px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin-bottom: 0px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton .sbcub-left {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton .sbcub-left input {
+    width: 20px;
+    height: 20px;
+    background-color: #707070;
+    border: solid 1px #707070;
+    margin-top: 0px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton .sbcub-left input:checked {
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton .sbcub-left h1 {
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #111111;
+    margin: 2px 0px 0px 12px;
+}
+
+.sign-in .s-body .sb-center .sbc-up .sbcu-botton .sbcub-right h1 {
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #111111;
+    margin: 0px;
+}
+
+.sign-in .s-body .sb-center .sbc-down {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in .s-body .sb-center .sbc-down .sbcd-button {
+    width: 158px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-image: linear-gradient(to bottom, #00b3e1, #18c0ff), linear-gradient(#00aff0, #00aff0);
+    box-shadow: 0px 6px 10px 0 rgba(84, 84, 84, 0.29);
+    border: none;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.sign-in .s-body .sb-center .sbc-down .sbcd-button:focus {  
+    outline: none;
+}
+
+.sign-in .s-body .sb-center .sbc-down .sbcd-button:hover {
+    cursor: pointer;
+}

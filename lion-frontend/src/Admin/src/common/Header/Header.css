@@ -1,0 +1,64 @@
+.LoginMenuAdmin{
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 43px;
+}
+.siginAdmin{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.avatarAcountAdmin{
+    height: 80%;
+    width: 35%;
+    text-align: center;
+    border-radius: 3px;
+}
+.siginAcountAdmin{
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #858e9a;
+    margin-right: 5%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis; 
+}
+.opitionAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+}
+.iconOpition{
+    font-size: 20px;
+    color: #9ca4af;
+}
+@media(max-width: 600px) {
+    .siginAdmin{
+        display: none;
+    }
+    .siginUser{
+        display: none;
+    }
+}
+@media(max-width: 900px) {
+    .siginAcountAdmin{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .siginAcountUser{
+        display: none;
+    }
+    .avatarAcountUser{
+        width: 80%;
+    }
+}

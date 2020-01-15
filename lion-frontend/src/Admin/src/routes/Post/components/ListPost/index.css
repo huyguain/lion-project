@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url('../../../../../../User/src/fonts/Myriad Pro Regular.ttf');
+}
+
+
+.listPost .buttonAdd div a div {
+    text-align: center;
+    font-family: Myriad Pro Regular !important;
+  }
+
+.listPost .buttonAdd div a div div div {
+  text-align: center;
+  display: flex;
+}
+
+.listPost .table div div div table thead tr {
+  font-family: Myriad Pro Regular;
+}
+
+.listPost .table div div div table tbody tr {
+  font-family: Myriad Pro Regular;
+}
+
+.listPost .table div div div span {
+  font-family: Myriad Pro Regular;
+}
+  .listPost .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .listPost .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  .listPost .buttonAdd{
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .listPost.App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

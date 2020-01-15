@@ -1,0 +1,265 @@
+.bodyPageEvent{
+    padding-top: 100px;
+    text-align: center;
+}
+.bodyPageEvent .specialEventbtn{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #888888;
+    text-transform: uppercase;
+    background-color: #ebebeb;
+    border: none;
+    outline: none !important;
+}
+.bodyPageEvent .eventTitle{
+    margin-top: 24px;
+    font-family: OpenSans-Extrabold;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bodyPageEvent .contentEvent{
+    font-size: 16px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #555555;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    border-bottom: solid 1px #ebebeb;
+}
+.bodyPageEvent .contentEvent span{
+    /* font-family: Roboto-Regular !important; */
+    font-size: 16px !important;
+}
+.bodyPageEvent .contentEvent ul{
+    margin-left:  1em;
+}
+.bodyPageEvent .contentEventTitle{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: 26px;
+}
+.bodyPageEvent .contentEventFsoft{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #ffffff;
+    background-color: #e66d24;
+    padding: 1px 7px 1px 7px;
+}
+.bodyPageEvent .contentEventInfor{
+    font-family: Roboto-Regular;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 0px;
+}
+.bodyPageEvent .listIntroduce{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    text-align: left;
+    color: #333333;
+    list-style-type:none;
+    padding: 0px 0px;
+}
+.bodyPageEvent .ullistStyle{
+    margin-right: 10px;
+    color: #e66d24
+}
+.bodyPageEvent .quoteStyle{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #e66d24;
+}
+.bodyPageEvent .introduceCompany{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #888888;
+    font-family: RobotoSlab-Regular;
+    margin-bottom: 34px;
+}
+.bodyPageEvent .introduceFA{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.8px;
+    color: #555555;
+}
+.bodyPageEvent .listIntroduceFA{
+    font-weight: normal;
+    background-color: #d7f0fa;
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 30px;
+}
+.bodyPageEvent .listIntroduceProgram{
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #333333
+}
+.bodyPageEvent .InfoIntroduceProgram{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #555555;
+    margin-bottom: 16px;
+}
+.bodyPageEvent .hasTagEvent{
+    background-color: #f6f6f6;
+    padding: 5px 20px 5px 20px;
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    color: #333333;
+}
+.bodyPageEvent .hasTagEvent:hover{
+    background-color: #888888;
+    cursor: pointer;
+}
+.bodyPageEvent .shareEvent{
+    margin-top: 18px;
+    margin-bottom: 66px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: flex-start;
+}
+.bodyPageEvent .shareWithFace{
+    background-color: #5674b9;
+    margin-right: 18px;
+    padding: 8px 35px 8px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: center;
+    font-family: Myriad Pro Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.bodyPageEvent .bodySlider{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    background-color: #3f3f3f;
+    padding-bottom: 70px;
+    margin-top: 52px;
+    width: 100%;
+}
+.bodyPageEvent .itemSlider{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bodyPageEvent .prevArrowEvent{
+    color: #333333;
+    left: -35px;
+    line-height: 0;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    position: absolute;
+    display: block;
+    padding: 5px 7px 5px 7px;
+    background-color: #f57002;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.bodyPageEvent .nextArrowEvent{
+    right: -35px;
+    line-height: 0;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    position: absolute;
+    display: block;
+    padding: 5px 7px 5px 7px;
+    background-color: #f57002;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff; 
+}
+.bodyPageEvent .nextArrowEvent:hover{
+    color: #333333;
+    background-color: #ffffff;
+}
+.bodyPageEvent .prevArrowEvent:hover{
+    color: #333333;
+    background-color: #ffffff;
+}

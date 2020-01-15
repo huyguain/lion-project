@@ -1,0 +1,52 @@
+.backgoundNavFS{
+    height: 0px;
+    padding-top: 80%;
+    position: relative;
+}
+.navinationTitle{
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.listMenuNavination{
+    position: absolute;
+    top: 40px;
+    left: 24px;
+    margin-right: 24px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    opacity: 0.9;    
+}
+.lineTitle{
+    margin-top: 8px;
+    margin-bottom: 24px;    
+    border: solid 1px #d7d7d7;
+    width: 50%;
+}
+.navinationContentTitle{
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.navinationContentTitle:hover{
+    color: #ffffff;
+    text-decoration:none; 
+}
+@media(max-width:768px){
+    .backgoundNavFS{
+        padding-top: 60%;
+    }
+}

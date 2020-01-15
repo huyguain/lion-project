@@ -1,0 +1,18 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrap-breadcrum-user {
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wrap-breadcrum-user .detail-bread-crum-user{
+	cursor: pointer;
+}

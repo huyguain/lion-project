@@ -1,0 +1,150 @@
+.NavigationForVideo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    z-index: 101;
+    height: 100%
+}
+.NavigationVideo{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0.6;
+}
+.NavigationVideo:hover{
+    opacity: 0.9;
+}
+.NavHeaderVideo{
+    float: left;
+    padding-top: 30px;
+}
+.NavHambugerVideo{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+    height: 55px;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 65px;    
+    border: none;
+    background-color: #000000;
+    outline: none;
+}
+.NavIconBar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    background-color: #bfbfbf;    
+}
+.NavContentListItem{
+    width: 30%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #000000;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.NavContentTitle{
+    height: 10%;
+    font-family: Lato-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.33;
+    letter-spacing: normal;
+    color: #6c6c6c;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.navMenuScrollbar{
+    overflow-y: scroll;  
+    height: 90%;
+    padding-right: 5.6%;
+}
+#styleScrollbar::-webkit-scrollbar{
+	width: 6px;
+    border-radius: 3px;
+    background-color: #434343
+}
+
+#styleScrollbar::-webkit-scrollbar-thumb
+{
+  background-color: #252525;
+  border-radius: 3px;
+}
+.NavContentItemTitle{
+    font-family: Lato-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.NavListItemLecture{
+    height: auto;
+    padding: 0px;
+}
+.NavItemLecture{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #353535;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.NavItemLectureFinish{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 50%;
+}
+.NavItemLectureTitle{
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    width: 55%;
+    color: #fafafa;
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.NavItemLectureTime{
+    width: 30%;
+    text-align: right;
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+}
+.NavItemLectureIconFinished{
+    font-size: 20px;
+    color: #00a453
+}
+.NavItemLectureIconNotFinished{
+    font-size: 20px;
+    color: #687985
+}

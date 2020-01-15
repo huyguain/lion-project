@@ -1,0 +1,17 @@
+.ContentVideo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContentVideoYoutube{
+    width: 100%;
+    height: 100%;
+}
+.ContentVideo span{
+    width: 100%;
+    height: 100%;
+}

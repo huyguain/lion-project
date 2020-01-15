@@ -1,0 +1,47 @@
+@font-face {
+    font-family: SFUIDisplay-Regular;
+    src: url('../../../../fonts/SFUIDisplay-Regular.otf');
+}
+
+
+@font-face {
+    font-family: SFUIDisplay-Semibold;
+    src: url('../../../../fonts/SFUIDisplay-Semibold.otf');
+}
+.form-content {
+    width : 68%;
+    height: 150px;
+    margin-left: 15.2%;
+    background-color: #ffffff;
+}
+
+.form-content-text1.text {
+    float: left;
+}
+
+.form-content-text1 {
+    font-family: SFUIDisplay-Semibold;
+    font-size: 30px;
+    font-weight: 600;
+    color: #111111;
+    padding-top: 61px;
+    margin-bottom: 0px; 
+    line-height: 23px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content-text2 {
+    padding-top: 16px;
+    padding-bottom: 33px;
+    font-family: SFUIDisplay-Regular;
+    font-size: 20px;
+    color: #00aff0;
+    height: 66px;
+    margin-bottom: 0px;
+    line-height: 17px;
+    clear: both;
+}

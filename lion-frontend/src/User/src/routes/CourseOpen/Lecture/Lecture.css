@@ -1,0 +1,46 @@
+.lecture {
+    background-color: #ffffff;
+}
+
+.lecture .lecture-item {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lecture .lecture-item .item-left {
+    display: flex;
+    align-items: center;
+    margin-left: 2.1%;
+}
+
+.lecture .lecture-item .item-left .il-left {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.lecture .lecture-item .item-left .il-right {
+    padding-left: 28px;
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+.lecture .lecture-item .item-time {
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin-right: 3%;
+}
+
+

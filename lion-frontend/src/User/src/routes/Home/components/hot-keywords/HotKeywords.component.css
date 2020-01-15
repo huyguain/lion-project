@@ -1,0 +1,8 @@
+.key-words {
+    display: flex;
+    justify-content: space-between;
+}
+
+pre {
+    text-align: center;
+}

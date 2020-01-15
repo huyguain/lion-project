@@ -1,0 +1,34 @@
+.english-test {
+    width: auto;
+    height: auto;
+    max-height: 1082px;
+    margin-left: 15.2%;
+    margin-right: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: SFUIDisplay-Semibold    
+}
+
+#style-scroll-englishTest::-webkit-scrollbar {
+    width: 8px;
+    height: 150px;
+    background-color: #ebebeb;
+}
+
+#style-scroll-englishTest::-webkit-scrollbar-track {   
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #ebebeb;
+}
+
+#style-scroll-englishTest::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #898989;
+    
+}
+
+#style-scroll-englishTest::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+

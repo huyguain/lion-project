@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Myriad Pro Regular;
+    src: url('../../../../../../User/src/fonts/Myriad Pro Regular.ttf');
+  }
+
+.form-post {
+    font-family: Myriad Pro Regular !important;
+}
+.postForm .SelectElementFormPost input[role=combobox]{
+    border: none !important;
+}
+.postForm .SelectElementFormPost{
+    font-family: Lato-Regular;
+    width: 100%;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+.form-post div div {
+    font-family: Myriad Pro Regular !important;
+}
+
+.form-post div div label {
+    font-family: Myriad Pro Regular !important;
+}
+.rdw-editor-main{
+    height: 12em;
+    min-height: 8em;
+    max-height: 24em;
+    border: 1px solid rgba(34,36,38,.15);
+}
+.dropzoneItemSlider{
+    width: 100%;
+    min-height: 155px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #26a69a;
+    background: #e3f0f0;
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color:darkgrey;
+}
+.deleteIconItemImage{
+    color: gray;
+    font-size: 24px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.deleteIconItemImage:hover{
+    color: red;
+}
+.formCreateHashTag{
+    display: inline;
+}
+.itemHashTag{
+    margin-right: 10px;
+    position: relative;
+    size: 16px;
+    padding-top: 5px;
+    padding-right: 7px;
+}

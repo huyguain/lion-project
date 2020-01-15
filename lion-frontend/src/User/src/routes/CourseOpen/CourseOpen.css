@@ -1,0 +1,211 @@
+@font-face{
+    font-family: 'Lato-Semibold';
+    src: url('../../fonts/Lato-Semibold.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Medium';
+    src: url('../../fonts/Lato-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Bold';
+    src: url('../../fonts/Lato-Bold.ttf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.courseOpen {
+    background-color: #f3f3f3 ;
+    display: flex;
+    justify-content: center;
+}
+
+.courseOpen .co-body {
+    /* width: 81%; */
+    height: auto;
+    padding-top: 44px;
+    padding-bottom: 73px;
+}
+
+.courseOpen .co-body .co-b-up {
+
+}
+
+.courseOpen .co-body .co-b-up .cobu-tittle {
+    font-family: Lato-Semibold;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin: 0px;
+    
+}
+
+.courseOpen .co-body .co-b-up .cobu-rectangle {
+    width: 56px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #00ccff;
+    margin-top: 11px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .img {
+    width: 54px;
+    height: 50px;
+    background-color: blue;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center .ucc-title {
+    font-family: Lato-Semibold;
+    font-size: 24.8px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin-top: 0px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center .ucc-time {
+    display: flex;
+    flex-direction: row;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center .ucc-time .t-hours {
+    font-family: Lato-Medium;
+    font-size: 15.9px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center .ucc-time .t-days {
+    font-family: Lato-Medium;
+    font-size: 15.9px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin-left: 6%;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-center .ucc-descreption {
+    margin-top: 16px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right {
+    margin-left: 12.65%;
+    display: flex;
+    flex-direction: column;
+    width: 41.1%;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 23px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-up h1 {
+    margin: 0px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-up .urc-up-pt {
+    font-family: Lato-Medium;
+    font-size: 19.5px;
+    font-weight: 900;
+    color: #006dc4;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-up .urc-up-complete {
+    font-family: Lato-Medium;
+    font-size: 19.5px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin-left: 5px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-down {
+    background-color: #a6a6a6;
+    border-radius: 16px;
+    height: 10px;
+    margin-top: 8px;
+}
+
+.courseOpen .co-body .co-b-up .cobu-content .u-content-right .ucr-down .urc-down-progress {
+    background-color: #006dc4;
+    border-radius: 16px;
+    height: 10px;
+}
+
+
+.courseOpen .co-body .co-b-down {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px #dddddd;
+    margin-top: 41px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.courseOpen .co-body .co-b-down .tittle {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 2.3%;
+    font-family: Lato-Semibold;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a6a6a6;
+}
+
+.courseOpen .co-body .co-b-down .sections {
+    background-color: #ffffff;
+    border-top: solid 1px #dddddd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media all and (min-width: 1680px) {
+    .courseOpen .co-body {
+        max-width: 1400px;
+    }
+}

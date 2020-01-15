@@ -1,0 +1,17 @@
+@font-face {
+    font-family: SFUIDisplay-Regular;
+    src: url('../../../../fonts/SFUIDisplay-Regular.otf');
+}
+
+.clock {
+    float: right;
+    font-family: SFUIDisplay-Regular;
+    font-size: 20px;
+}
+
+.clock-minutest {
+    float: left;
+}
+.clock-senconds {
+    float: right;
+}

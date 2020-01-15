@@ -1,0 +1,36 @@
+.loginForm {
+    width: 420px;
+    margin: 0 auto;
+    z-index: 99;
+    display: block;
+    margin-top: 10%;
+    background: transparent;
+    border-radius: .25em .25em .4em .4em;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+hgroup {
+    text-align: center;
+    margin-top: 3em;
+    opacity: 0.7;
+    padding: 30px;
+    background: #09b3e7;
+}
+.powered {
+    padding: 10px;
+    margin-top: 16px;
+    line-height: 25px;
+    opacity: 0.7;
+    background: #09b3e7;
+}
+.error {
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(244, 67, 54);
+    
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fafafa inset !important;
+}

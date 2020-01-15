@@ -1,0 +1,153 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+    font-family: 'SFUIDisplay-Medium';
+    src: url('../../../fonts/SFUIDisplay-Medium.otf');
+  }
+  @font-face{
+    font-family: 'SFUIDisplay-Bold';
+    src: url('../../../fonts/SFUIDisplay-Bold.otf');
+  }
+  @font-face{
+    font-family: 'SFUIDisplay-Light';
+    src: url('../../../fonts/SFUIDisplay-Light.otf');
+  }
+
+@font-face {
+    font-family: SFUIDisplay-Medium;
+    src: url('../../../fonts/SFUIDisplay-Medium.otf');
+}
+
+@font-face {
+    font-family: SFUIDisplay-Light;
+    src: url('../../../fonts/SFUIDisplay-Light.otf');
+}
+.testFinish-body{
+    height: 870px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    background-image: url("../assets/background.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testFinish-show{
+    margin-top: -236px;
+    position: relative;
+    width: 547px;
+    height: 445px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 25px 0
+    rgba(51, 51, 51, 0.1);
+}
+
+.testFinish-body .star-top {
+    z-index: 2;
+    position: absolute;
+    top: -69px;
+    right: -53px;
+}
+
+.testFinish-body .star-bottom {
+    left: -56px;
+    position: absolute;
+    z-index: 2;
+    bottom: -75px;
+}
+
+.testFinish-show .testFinish-show-span {
+    text-align: center;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.testFinish-show .testFinish-show-span span{
+    text-transform: uppercase;
+    width: 259px;
+    height: 26px;
+    font-family: SFUIDisplay-Bold;
+    font-size: 34.8px;
+    font-weight: bold;
+    line-height: 2.17;
+    color: #111111;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title {
+    width: 357px;
+    margin: auto;
+    font-family: SFUIDisplay-Light;
+    margin-top: 67px;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .table-row {
+	weight: 285px;
+    height: 49px;
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .table-row .table-result-field {
+	display: inline-block;
+	width: 160px;
+	font-family: SFUIDisplay-Light;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 2.5;
+	text-align: left;
+    color: #999999;
+    margin-left: 25px;
+
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .table-row .table-result-value {
+	display: inline-block;
+	width: 122px;
+	font-family: SFUIDisplay-Medium
+    ;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 2.5;
+    text-align: left;
+}
+.testFinish-show .text-blue {
+    text-transform: uppercase;
+    color: #00afec;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .testFinish-button {
+    display: flex;
+    justify-content: center;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .testFinish-button>button:hover {
+    cursor: pointer;
+}
+
+.testFinish-body .testFinish-show .testFinish-show-title .testFinish-button button{
+    position: absolute;
+    bottom: -30px;
+    width: 167px;
+    height: 70px;
+    border-radius: 35px;
+    font-family: SFUIDisplay-Bold;
+    background-color: #0ccef7;
+    /*box-shadow: 0px 6px 14.3px 0.8px rgba(84, 84, 84, 0.2);*/
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 2.6;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(214deg, #17ecff, #00aff0), linear-gradient(#00afec, #00afec);
+    box-shadow: 0px 6px 15px 0 rgba(51, 51, 51, 0.2);
+}
+.linkto{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+

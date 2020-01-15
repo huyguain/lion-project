@@ -1,0 +1,189 @@
+/* header-course */
+.wrap-banner-course {
+    background-image: url("../assets/wrap-header-course.png");
+    background-repeat: no-repeat;
+    padding-top: 56px;
+    padding-bottom: 28px;
+    background-size: 100% 100%;
+}
+.title-0-course {
+    font-family: Lato-Semibold;
+    font-size: 33px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #111111;
+}
+.description-0-course {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin-top: 17px;
+}
+.course-breadcrum {
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+}
+.icon-home {
+    margin-right: 14px;
+}
+.text-breadcrum {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #666666;
+}
+.wrap-course-name {
+    padding-top: 44px;
+    padding-bottom: 25px;
+}
+.course-name {
+    font-family: Lato-Semibold;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+.line-light-blue {
+    width: 56px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #00ccff;
+    margin-top: 11px
+  }
+  .wrap-description-course {
+    padding-top: 21px;
+  }
+  .section-language {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0 rgba(51, 51, 51, 0.06);
+    padding-bottom: 25px;
+  }
+  .btn-view-more-course {
+    width: 212px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    border: solid 1px #e1e1e1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    font-family: Lato-Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  .icon-image-course {
+      margin-left:31px;
+      margin-right: 19px;
+  }
+  .course-detail-name {
+    font-family: Lato-Semibold;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .course-time {
+    font-family: Lato-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal; 
+    letter-spacing: normal; 
+    color: #666666;
+    margin-top: 11px;
+  }
+  .course-time>.hours {
+      border-right: 1px dotted #cccccc; 
+      padding-right: 9px;
+  }
+  .course-time>.date {
+      padding-left: 9px;
+  }
+  .line-border-bottom {
+    border-bottom:  2px dotted #b7b7b7;
+  }
+  .last-list-course {
+      margin-bottom: 89px;
+  }
+  .time-percent {
+      text-align: right;
+  }
+  .time-percent .text {
+    height: 18px;
+    font-family: Lato-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333333;
+  }
+  .time-percent .percent {
+    font-family: Lato-Heavy;
+    font-size: 20px;
+    font-weight: 900;
+    color: #111111;
+  }
+  .slider_percent {
+    width: 325px;
+    height: 8px;
+    border-radius: 2.5px;
+    background-color: #f3f3f3;
+  }
+  @media  (min-width: 1024px) and (max-width: 1679px) {
+    .icon-image-course {
+        width: 30px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .course-detail-name {
+        font-size: 15px;
+    }
+    .course-time>.hours {
+        padding-right: 4px;
+    }
+    .course-time>.date {
+        padding-left: 4px;
+    }
+    .course-detail-name {
+        width: 150px;
+    }
+    .course-time {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .wrap-description-course {
+        padding-top: 15px;
+    }
+    .section-language {
+        padding-bottom: 15px;
+    }
+  }

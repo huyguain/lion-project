@@ -1,0 +1,44 @@
+.body-d {
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.body-d>.b-d-form {
+    width : 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-d>.b-d-form>.message-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 70%;
+    width: 80%;
+    text-align: center;
+}
+
+.body-d>.b-d-form>.button-d {
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #00aff0;
+    color: #ffffff;
+}

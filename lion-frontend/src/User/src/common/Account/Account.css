@@ -1,0 +1,42 @@
+@font-face {
+    font-family: SFUIDisplay-Medium;
+    src: url('../../fonts/SFUIDisplay-Medium.otf');
+}
+@font-face {
+    font-family: SFUIDisplay-Regular;
+    src: url('../../fonts/SFUIDisplay-Medium.otf');
+}
+.testCode-body-header{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: #fafafa;
+}
+
+.testCode-name{
+    font-family: SFUIDisplay-Medium;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111111;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+.testCode-mobile{
+    font-family: SFUIDisplay-Regular;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #666666;
+    margin-left: 25px;
+}
+.testCode-account{
+    float: right;
+    width: 300px;
+    height: 100%;
+}
+
+
+@media (min-width: 1280px) {
+    .testCode-body-header{
+        min-width: 1280px;
+    }
+}
