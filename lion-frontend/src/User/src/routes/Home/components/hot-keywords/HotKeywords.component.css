@@ -1,8 +1,19 @@
 .key-words {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-pre {
+.word-item {
     text-align: center;
+    height: 92px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-right: 15px;
+}
+
+.word-item pre {
+    color: #fff;
 }

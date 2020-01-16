@@ -33,7 +33,7 @@ const UserApp = (props) => {
     return (
         <Switch>
             <div className='root' style={{ marginLeft: 5, marginRight: 5, background: "#fafafa" }}>
-                <Route component={Header} />
+                {/* <Route component={Header} /> */}
                 <Switch >
                     <Route path="/" exact component={Home} />
                     <Route path="/test" exact component={TestCode} />
@@ -61,7 +61,7 @@ const UserApp = (props) => {
                     <Route name='job-location'  path="/list-job/location-:location/:titleJob&:idJob" component={DetailJob} />
                     <Route name='job-hashtag' path="/list-job/hashtag-:hashtag/:titleJob&:idJob" component={DetailJob} />
                 </Switch>
-                <Route component={Footer} />
+                {/* <Route component={Footer} /> */}
             </div>
         </Switch>
     )

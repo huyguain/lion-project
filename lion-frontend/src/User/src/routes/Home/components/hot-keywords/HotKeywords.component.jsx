@@ -57,11 +57,37 @@ class HotKeywordsComponent extends Component {
     //     );
     // }
     const { keywords } = this.state;
+    const colors = [
+      "#fa6772",
+      "#202c39",
+      "#b1f0bd",
+      "#2ac821",
+      "#d61cce",
+      "#48cabc",
+      "#e2d79b",
+      "#2c08c1",
+      "#094afc",
+      "#d39c0e",
+      "#baaab3",
+      "#fd0a03",
+      "#0dfbcc",
+      "#f2e599",
+      "#e9e269",
+      "#79f1ae",
+      "#978d3c",
+      "#67cd40",
+      "#94610b",
+      "#e29ac6"
+    ];  
     return (
       <div className="key-words">
         {
           keywords.map((value, index) => {
-            return <pre key={index}>{value}</pre>
+            return <div className="word-item"><pre key={index} style={
+              {
+                background: colors[index]
+              }
+            }>{value}</pre></div>
           })
         }
       </div>

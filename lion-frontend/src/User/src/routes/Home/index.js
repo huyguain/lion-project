@@ -15,12 +15,12 @@ class Home extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <SlideShow history={this.props.history} />
-                <Utility2 />
+                {/* <SlideShow history={this.props.history} /> */}
+                {/* <Utility2 /> */}
                 <HotKeywordsComponent />
-                <PostList goTo={this.goTo} />
-                <Utility />
-                <LogoList />
+                {/* <PostList goTo={this.goTo} /> */}
+                {/* <Utility /> */}
+                {/* <LogoList /> */}
             </div>
         )
     }
