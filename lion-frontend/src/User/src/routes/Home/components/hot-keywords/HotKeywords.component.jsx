@@ -83,11 +83,13 @@ class HotKeywordsComponent extends Component {
       <div className="key-words">
         {
           keywords.map((value, index) => {
-            return <div className="word-item"><pre key={index} style={
+            return <div className="word-item d-flex"style={
               {
                 background: colors[index]
               }
-            }>{value}</pre></div>
+            }>
+              <pre key={index}>{value}</pre>
+              </div>
           })
         }
       </div>
