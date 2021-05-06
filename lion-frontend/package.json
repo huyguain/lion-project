@@ -28,7 +28,7 @@
     "react-css-loaders": "0.0.5",
     "react-csv": "^1.0.8",
     "react-dom": "^16.0.0",
-    "react-draft-wysiwyg": "^1.12.5",
+    "react-draft-wysiwyg": "^1.14.6",
     "react-dropzone": "^4.2.3",
     "react-format-text": "^1.1.1",
     "react-froala-wysiwyg": "^2.7.2",
