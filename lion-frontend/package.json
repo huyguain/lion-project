@@ -51,7 +51,7 @@
     "semantic-ui-react": "^0.77.2",
     "slug": "^0.9.1",
     "universal-cookie": "^2.1.2",
-    "xlsx": "^0.12.5",
+    "xlsx": "^0.17.0",
     "youtube-info": "^1.2.0",
     "youtube-video-info": "0.0.1"
   },
