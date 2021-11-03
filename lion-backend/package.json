@@ -60,7 +60,7 @@
     "simple-encryptor": "^1.1.0",
     "slug": "^0.9.1",
     "uid": "0.0.2",
-    "validator": "^8.2.0",
+    "validator": "^13.7.0",
     "youtube-feeds": "^2.4.1",
     "youtube-info": "^1.2.0"
   },
