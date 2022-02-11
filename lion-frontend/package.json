@@ -10,7 +10,7 @@
     "classnames": "^2.2.5",
     "draftjs-to-html": "^0.8.2",
     "form-data": "^2.3.1",
-    "froala-editor": "^2.7.2",
+    "froala-editor": "^4.0.7",
     "html-to-draftjs": "^1.1.2",
     "immutable": "^3.8.2",
     "jquery": "^3.4.1",
